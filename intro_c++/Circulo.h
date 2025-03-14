@@ -4,8 +4,11 @@ seguinte:
 do círculo. Teste estes métodos na parte principal do programa.
 2. Na parte principal do programa, crie dois círculos e imprima as suas áreas */
 
-#ifndef CIRCULO_H
-#define CIRCULO_H
+
+/*esse archivo é o cabeçalho*/
+
+#ifndef CIRCULO_H  /*para evitsr inclusão multipla de um archivo cabeçalho. define se não for definido ainda*/
+#define CIRCULO_H  /*define para evitar multipla inclusões*/
 class Circulo{
 
 public:
@@ -19,4 +22,4 @@ private:
 
 };
 
-#endif
+#endif  /*fin do bloco */
